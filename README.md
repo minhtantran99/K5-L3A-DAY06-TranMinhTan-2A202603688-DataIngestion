@@ -4,7 +4,7 @@
 
 Đã chạy 62 trang nội dung, 3 cấu hình và 20 câu hỏi (15 dev / 5 test). Chọn C trên dev; giữ nguyên lựa chọn khi test thấp hơn A. Báo cáo: [2A202603688_TranMinhTan.md](report/individual/2A202603688_TranMinhTan.md). [Bảng kết quả](results/summary.md). [Giải thích để học DE](docs/QUY_TRINH_DE.md).
 
-**Repo bài nộp:** https://github.com/minhtantran99/K5-L3-Day06-DataIngestionEngineering — nhánh `tan_branch`, commit triển khai được ghi trong STUDENT.md. Học viên tự nộp link theo kênh lớp.
+**Repo bài nộp:** https://github.com/minhtantran99/K5-L3A-DAY06-TranMinhTan-2A202603688-DataIngestion — nhánh `tan_branch`, commit triển khai được ghi trong STUDENT.md. Học viên tự nộp link theo kênh lớp.
 
 **Phần chưa xác nhận:** nhãn định tính/evidence do học viên kiểm chứng; URL nguồn/quyền công bố lại PDF. Nhãn AI không được trình bày thành điểm chấm thủ công của học viên. Chỉ dùng tài khoản Git minhtantran99. Không bổ sung lớp theo yêu cầu học viên.
 

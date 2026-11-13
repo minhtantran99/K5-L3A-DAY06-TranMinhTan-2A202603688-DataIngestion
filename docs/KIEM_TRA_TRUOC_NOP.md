@@ -13,7 +13,7 @@
 ## Chưa hoàn tất theo checklist đề
 
 1. **Chấm thủ công:** `results/human_review.csv` vẫn chưa có `human_score`/`reviewer`. Có 30 mẫu coherence và 15 mẫu grounding. Nhận xét hiện tại do AI hỗ trợ; không được đổi nhãn thành đã được học viên xác nhận khi chưa làm. Metadata có 45 bản ghi đối chiếu tự động, còn chờ người học kiểm chứng với nguồn. Sau khi xác nhận, cập nhật báo cáo tương ứng, giữ phân biệt điểm AI và điểm người chấm.
-2. **Nộp repo:** repo đích là `https://github.com/minhtantran99/K5-L3-Day06-DataIngestionEngineering`, nhánh `tan_branch`; commit triển khai ghi trong STUDENT.md. Học viên tự nộp link theo kênh lớp. Chỉ dùng tài khoản `minhtantran99`.
+2. **Nộp repo:** repo đích là `https://github.com/minhtantran99/K5-L3A-DAY06-TranMinhTan-2A202603688-DataIngestion`, nhánh `tan_branch`; commit triển khai ghi trong STUDENT.md. Học viên tự nộp link theo kênh lớp. Chỉ dùng tài khoản `minhtantran99`.
 3. **Cấp quyền xem bằng chứng:** PDF, corpus và trace có text vẫn bị bỏ qua trong Git vì chưa xác minh quyền đăng công khai. Bản ZIP local có các file này để chấm riêng. Cần cung cấp cho người chấm qua kênh phù hợp hoặc hướng dẫn truy cập hợp lệ; chưa có URL tải gốc để tự động lấy lại PDF.
 
 Không yêu cầu bổ sung lớp theo chỉ dẫn của học viên. Điểm test thấp không phải lý do phải chạy lại hoặc tinh chỉnh trước nộp; rubric đánh giá bằng chứng và phân tích trung thực.

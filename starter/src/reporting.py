@@ -123,7 +123,7 @@ Nếu làm vòng nghiên cứu mới: cải thiện đọc layout và lỗi tác
 
 Codex hỗ trợ viết code, xây câu hỏi/evidence, chạy pipeline, phân tích và soạn báo cáo. Không tự ghi nhãn AI thành chấm tay của Trần Minh Tân. File results/human_review.csv có 30 mẫu coherence và 15 mẫu grounding để học viên đọc nguồn, ghi human_score, reviewer và lý do; metadata_audit.jsonl có 45 bản ghi chờ xác nhận. Giữ cột AI riêng khi bổ sung điểm người chấm.
 
-Trước nộp cần xác nhận nhãn/evidence và cấp cho người chấm PDF hợp lệ khớp hash qua kênh phù hợp. Repo bài nộp: https://github.com/minhtantran99/K5-L3-Day06-DataIngestionEngineering, nhánh tan_branch; commit triển khai ghi trong STUDENT.md. Chỉ dùng tài khoản minhtantran99. Học viên tự nộp link theo kênh lớp. Theo yêu cầu học viên, không bổ sung thông tin lớp.
+Trước nộp cần xác nhận nhãn/evidence và cấp cho người chấm PDF hợp lệ khớp hash qua kênh phù hợp. Repo bài nộp: https://github.com/minhtantran99/K5-L3A-DAY06-TranMinhTan-2A202603688-DataIngestion, nhánh tan_branch; commit triển khai ghi trong STUDENT.md. Chỉ dùng tài khoản minhtantran99. Học viên tự nộp link theo kênh lớp. Theo yêu cầu học viên, không bổ sung thông tin lớp.
 """
     path = ROOT / "report/individual/2A202603688_TranMinhTan.md"
     path.write_text(report, encoding="utf-8")
