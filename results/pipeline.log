@@ -1,0 +1,5 @@
+2026-11-13 18:13:59,496 INFO Strategy A: 214 chunks, embed 5.41s, store 0.81s, reload OK
+2026-11-13 18:14:06,531 INFO Strategy B: 211 chunks, embed 5.71s, store 0.86s, reload OK
+2026-11-13 18:14:07,909 INFO Strategy C: 211 chunks, embed 0.00s, store 0.82s, reload OK
+2026-11-13 18:14:08,123 INFO Selected C using dev only; now evaluating test
+2026-11-13 18:14:08,520 INFO Completed; results saved under results/

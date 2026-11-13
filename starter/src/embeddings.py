@@ -1,29 +1,14 @@
-"""Choose a real embedding provider (API or local) and implement this contract."""
-from typing import Protocol
-
-
-class Embedder(Protocol):
-    model_name: str
-    dimensions: int
-
-    def embed_documents(self, texts: list[str]) -> list[list[float]]:
-        """Return one vector per input text, in the same order."""
-        ...
-
-    def embed_query(self, question: str) -> list[float]:
-        """Return a query vector compatible with the stored document vectors."""
-        ...
-
+"""Real multilingual ONNX embeddings on CPU. No mock fallback."""
+from fastembed import TextEmbedding
 
 class MyEmbedder:
-    """TODO: implement a provider adapter; do not silently fall back to mock vectors."""
-
-    def __init__(self, model_name: str) -> None:
+    def __init__(self, model_name, cache_dir):
         self.model_name = model_name
-        raise NotImplementedError("TODO: initialize real embedder and dimensions")
+        self.model = TextEmbedding(model_name=model_name, cache_dir=str(cache_dir), threads=4)
+        self.dimensions = 384
 
-    def embed_documents(self, texts: list[str]) -> list[list[float]]:
-        raise NotImplementedError("TODO: embed_documents")
+    def embed_documents(self, texts):
+        return [v.tolist() for v in self.model.passage_embed(texts, batch_size=16)]
 
-    def embed_query(self, question: str) -> list[float]:
-        raise NotImplementedError("TODO: embed_query")
+    def embed_query(self, question):
+        return next(iter(self.model.query_embed(question))).tolist()

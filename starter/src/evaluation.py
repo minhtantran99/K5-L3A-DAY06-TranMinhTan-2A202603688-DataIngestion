@@ -1,16 +1,29 @@
-"""TODO: evaluate retrieved evidence and preserve per-query traces."""
-from typing import Any
+"""Complete evidence match. Qualitative labels are assessed separately."""
+import re
 
+def canonical(text):
+    return re.sub(r"\s+", " ", text).strip()
 
-def evaluate_query(question: dict[str, Any], hits: list[dict[str, Any]]) -> dict[str, Any]:
-    """TODO: check source/page and enough gold evidence; keep hit@1 and hit@3 trace.
+def evaluate_query(question, hits):
+    golds = question.get("gold_alternatives", []) + [{
+        "source_id": question["gold_source_id"], "page": question["gold_page"],
+        "evidence_quote": question["evidence_quote"]}]
+    matches = [any(h["document_id"] == g["source_id"] and h["page"] == g["page"]
+                   and canonical(g["evidence_quote"]) in canonical(h["text"])
+                   for g in golds) for h in hits]
+    return {"question": question, "hits": hits, "evidence_matches": matches,
+            "hit1": bool(matches and matches[0]), "hit3": any(matches)}
 
-    Accept any documented alternative gold evidence. Do not infer human grounding
-    or chunk coherence labels from exact string match.
-    """
-    raise NotImplementedError("TODO: evaluate_query")
-
-
-def summarize(traces: list[dict[str, Any]]) -> dict[str, Any]:
-    """TODO: aggregate Hit@1 and Evidence Hit@3 by strategy and dev/test split."""
-    raise NotImplementedError("TODO: summarize")
+def summarize(traces):
+    rows = []
+    for strategy in "ABC":
+        for split in ("dev", "test"):
+            group = [t for t in traces if t["strategy"] == strategy
+                     and t["question"]["split"] == split]
+            if not group:
+                continue
+            n = len(group)
+            h1, h3 = sum(t["hit1"] for t in group), sum(t["hit3"] for t in group)
+            rows.append({"strategy": strategy, "split": split, "n": n,
+                         "hit1_n": h1, "hit3_n": h3, "hit1": h1 / n, "hit3": h3 / n})
+    return rows

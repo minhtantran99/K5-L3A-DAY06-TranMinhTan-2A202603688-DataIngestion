@@ -1,0 +1,36 @@
+{
+  "locked_inputs_unchanged": true,
+  "trace_count": 60,
+  "top3_count": 180,
+  "coherence_samples": 30,
+  "grounding_samples": 15,
+  "metadata_records": 45,
+  "persistent_counts": {
+    "A": 214,
+    "B": 211,
+    "C": 211
+  },
+  "metrics_identical_to_first_run": true,
+  "non_filter_B_C_identical": true,
+  "selected_before_test": true,
+  "unittest_exit_code": 0,
+  "tests": 6,
+  "source_hashes": {
+    "starter/src/__init__.py": "9d51e4a4713565f1b69bb8f3a0d8ac2c6c8730961e738a65f7a7a4ebd2a593a8",
+    "starter/src/audit.py": "e20fb21790e0735fca9e2f4b80609838de63414000f0fb4877efdbeeae7becd5",
+    "starter/src/chunking.py": "19858892e6a5d2ad787f700075e07cb99376d5e84782aae8e80d1aef22d0a9a1",
+    "starter/src/embeddings.py": "3608b6a9a8fd677d8918ab3837d574349084869864fe5e98a042c391e2440aef",
+    "starter/src/evaluation.py": "8013e930f323c6c6cfd29c631a86d590f845d9f68b4c595ce2c8c865b0136432",
+    "starter/src/ingestion.py": "f2309ff504dfb362827ef3e26ea58eda565554edf7574de495652b6e3e1ed93b",
+    "starter/src/models.py": "9f26a14cd6139c7b608df067894274308ae7b5c2c2ccd10566079c345fae1710",
+    "starter/src/package_submission.py": "6c86f8238ad900967d2dce61e3c518e7c9029f35ea61e8735d2e8d0d648c6d04",
+    "starter/src/prepare.py": "3b9a05e0de851f8346593a72b3b31989b47b80c5871501509c87fb8084151ed4",
+    "starter/src/query.py": "6017793d9552f5e6404aa7810f4efc0419f2e33038a9362d20c86a03e023688c",
+    "starter/src/reporting.py": "d8377853e836ef5dd19ec2e5e0fa395cc4dc709d85ba134046cd76a284c6a6e1",
+    "starter/src/run.py": "7479c593f6d0423eb9d16dbcc697a31508755bf9b00ee7580de3ed4aa95d18b1",
+    "starter/src/store.py": "4a79d45bfbc3ec1160fc68e719faacba0a491e08e8eb9a2d8e9cdfed5caaff9e",
+    "starter/src/verify.py": "61980047a460c1345ddff3280e259b40d4ce6ff903169de671008b2cf8889bcf",
+    "starter/src/webapp.py": "554699617c9b11928f193aa51db58cd5fae06ef7222d0e5a598f6f468b7fbe22"
+  },
+  "human_review_completed": false
+}

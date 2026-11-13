@@ -1,0 +1,13 @@
+{
+  "locked_at": "2026-11-13T18:04:49.686530+07:00",
+  "fingerprint": {
+    "questions_sha256": "90951ed838f742f9e7d641b8914078bad912ef5bf786cd13efa5e804e9d6ce2a",
+    "config_sha256": "ab85b1b538b963bd8a21f369c468f27358b9f622c2da3c63774e2e41c31ac192",
+    "rules_sha256": "0ba4c2ab601e020eb1b5efb207a6972d89bb7b616fede08e2c48071bb6b6da82",
+    "pdf_sha256": "9ad4d991887b9c4fcb73d832ff7b2042402055936f7dbfe42f59e7420d5df751"
+  },
+  "selection_rule": "Max dev Evidence Hit@3, then dev Hit@1, then fewer chunks, then A/B/C order. Freeze before test; no tuning after test.",
+  "split_method": "15 dev / 5 test; different evidence pages, same document and topics. Not document-independent.",
+  "author": "Codex AI assistance, to be reviewed by student",
+  "test_use": "Test not used for tuning. Author saw source when writing gold; no blind human adjudication."
+}

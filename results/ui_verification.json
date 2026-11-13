@@ -1,0 +1,57 @@
+{
+  "checks": [
+    {
+      "check": "asset /",
+      "passed": true,
+      "bytes": 5550
+    },
+    {
+      "check": "asset /app.js",
+      "passed": true,
+      "bytes": 5622
+    },
+    {
+      "check": "asset /style.css",
+      "passed": true,
+      "bytes": 8279
+    },
+    {
+      "check": "existing index status",
+      "passed": true,
+      "counts": {
+        "A": 214,
+        "B": 211,
+        "C": 211
+      }
+    },
+    {
+      "check": "real model and filtered C top3",
+      "passed": true,
+      "elapsed_ms": 42.8
+    },
+    {
+      "check": "compare ABC; filter only C",
+      "passed": true
+    },
+    {
+      "check": "invalid inputs return 400",
+      "passed": true,
+      "cases": 7
+    },
+    {
+      "check": "cross origin request rejected",
+      "passed": true
+    },
+    {
+      "check": "source PDF opens",
+      "passed": true,
+      "bytes": 1260376
+    },
+    {
+      "check": "unlisted files not served",
+      "passed": true
+    }
+  ],
+  "browser_visual_qa": false,
+  "note": "HTTP API and JS syntax checked; no browser automation available."
+}

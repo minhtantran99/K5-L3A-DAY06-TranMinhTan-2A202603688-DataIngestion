@@ -1,0 +1,50 @@
+[
+  {
+    "strategy": "A",
+    "coherence_ai_mean": 1,
+    "coherence_n": 10,
+    "grounding_ai_mean": 0.8,
+    "grounding_distribution": {
+      "0": 3,
+      "1": 0,
+      "2": 2
+    },
+    "metadata_correct_n": 15,
+    "metadata_n": 15,
+    "filter_questions_obeyed": 0,
+    "filter_questions_n": 1,
+    "human_review_status": "PENDING; AI scores are provisional"
+  },
+  {
+    "strategy": "B",
+    "coherence_ai_mean": 1.6,
+    "coherence_n": 10,
+    "grounding_ai_mean": 0.6,
+    "grounding_distribution": {
+      "0": 3,
+      "1": 1,
+      "2": 1
+    },
+    "metadata_correct_n": 15,
+    "metadata_n": 15,
+    "filter_questions_obeyed": 0,
+    "filter_questions_n": 1,
+    "human_review_status": "PENDING; AI scores are provisional"
+  },
+  {
+    "strategy": "C",
+    "coherence_ai_mean": 1.6,
+    "coherence_n": 10,
+    "grounding_ai_mean": 0.6,
+    "grounding_distribution": {
+      "0": 3,
+      "1": 1,
+      "2": 1
+    },
+    "metadata_correct_n": 15,
+    "metadata_n": 15,
+    "filter_questions_obeyed": 1,
+    "filter_questions_n": 1,
+    "human_review_status": "PENDING; AI scores are provisional"
+  }
+]

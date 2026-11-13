@@ -1,0 +1,46 @@
+﻿dimension,strategy,sample_id,ai_score,human_score,reviewer,reason
+coherence,A,page_9,1,,,"Bắt đầu giữa từ; định nghĩa sơ chế ở cuối bị cắt, nhưng phần giữa còn hiểu được."
+coherence,A,page_10,1,,,Đầu và cuối giữa ý; các ví dụ tác nhân vật lý vẫn đọc hiểu được.
+coherence,A,page_11,1,,,Đầu giữa từ và cuối thiếu phần nguồn gốc; đoạn kiểm soát độc tố còn trọn ý.
+coherence,A,page_12,1,,,"Mở đầu thiếu ngữ cảnh, cuối bị cắt giữa từ; mô tả ở giữa hiểu một phần."
+coherence,A,page_13,1,,,Mất đầu từ Thớt; ý khám sức khỏe ở cuối bị cắt.
+coherence,A,page_14,1,,,Đầu nối từ trang trước và cuối cắt mục chất độc; phần bảo quản còn hiểu được.
+coherence,A,page_15,1,,,Mở đầu giữa từ và kết thúc giữa ví dụ; phần yêu cầu sơ chế còn hiểu được.
+coherence,A,page_16,1,,,Mở đầu thiếu đối tượng và cuối cắt tên Tỏi tây; các mục cần tây/cần ta còn rõ.
+coherence,A,page_17,1,,,Mở đầu giữa câu và cuối cắt quy trình su su; các mục mướp còn hiểu được.
+coherence,A,page_18,1,,,"Đầu giữa từ, cuối cắt mục củ cải; mục cà rốt ở giữa có thông tin hữu ích."
+coherence,B,page_9,2,,,Mục tiêu và lý do cần sơ chế có chủ thể và kết thúc câu đầy đủ.
+coherence,B,page_10,1,,,"Các mục hóa học đủ câu nhưng mở đầu tiếp danh sách tác nhân, thiếu tiêu đề bao quát."
+coherence,B,page_11,2,,,"Các ví dụ và đoạn yêu cầu kiểm soát độc tố giữ được ý, không cắt câu kết."
+coherence,B,page_12,2,,,"Các trường hợp bệnh và chuyển sang nguyên liệu thực vật có chủ thể, câu trọn vẹn."
+coherence,B,page_13,2,,,"Hai mục thớt và bố trí khu sơ chế có chủ thể, hành động và lý do đầy đủ."
+coherence,B,page_14,2,,,Các lưu ý bảo quản/sơ chế có câu hoàn chỉnh; mục Solamin là ví dụ riêng.
+coherence,B,page_15,2,,,"Tiêu đề yêu cầu kỹ thuật và ví dụ mổ gà đi cùng nhau, kết thúc đủ câu."
+coherence,B,page_16,1,,,"Đủ ý về cần tây nhưng mở đầu giữa mô tả rau diếp, kết mục cần ta thiếu ứng dụng."
+coherence,B,page_17,1,,,Mở đầu Lựa chọn quả bánh tẻ không nêu tên loại mướp; các mục sau còn hiểu được.
+coherence,B,page_18,1,,,Mở đầu giữa mô tả cà chua và gộp nhiều mục; mục cà rốt giữ ý nhưng ngữ cảnh chưa trọn.
+coherence,C,page_9,2,,,Mục tiêu và lý do cần sơ chế có chủ thể và kết thúc câu đầy đủ.
+coherence,C,page_10,1,,,"Các mục hóa học đủ câu nhưng mở đầu tiếp danh sách tác nhân, thiếu tiêu đề bao quát."
+coherence,C,page_11,2,,,"Các ví dụ và đoạn yêu cầu kiểm soát độc tố giữ được ý, không cắt câu kết."
+coherence,C,page_12,2,,,"Các trường hợp bệnh và chuyển sang nguyên liệu thực vật có chủ thể, câu trọn vẹn."
+coherence,C,page_13,2,,,"Hai mục thớt và bố trí khu sơ chế có chủ thể, hành động và lý do đầy đủ."
+coherence,C,page_14,2,,,Các lưu ý bảo quản/sơ chế có câu hoàn chỉnh; mục Solamin là ví dụ riêng.
+coherence,C,page_15,2,,,"Tiêu đề yêu cầu kỹ thuật và ví dụ mổ gà đi cùng nhau, kết thúc đủ câu."
+coherence,C,page_16,1,,,"Đủ ý về cần tây nhưng mở đầu giữa mô tả rau diếp, kết mục cần ta thiếu ứng dụng."
+coherence,C,page_17,1,,,Mở đầu Lựa chọn quả bánh tẻ không nêu tên loại mướp; các mục sau còn hiểu được.
+coherence,C,page_18,1,,,Mở đầu giữa mô tả cà chua và gộp nhiều mục; mục cà rốt giữ ý nhưng ngữ cảnh chưa trọn.
+grounding,A,q16,0,,,"Top-3 nói về nước mắm, hấp đồ và vệ sinh thớt; không có cách ngâm ốc trang 25."
+grounding,B,q16,0,,,"Top-3 về vây/bóng cá, nước mắm và vệ sinh khu sơ chế; không có bằng chứng ngâm ốc."
+grounding,C,q16,0,,,"Không có filter cho câu này, kết quả như B; không có bằng chứng về ngâm ốc."
+grounding,A,q17,0,,,"Top-3 có mùi tây và rau sơ chế, không có bằng chứng sử dụng cỏ xạ hương trang 40."
+grounding,B,q17,0,,,"Top-3 là rau cải, mùi tây và rau sơ chế; không có mục cỏ xạ hương."
+grounding,C,q17,0,,,"Filter giữ đúng nhóm gia vị nhưng trả về mùi tây/hương thảo và gia vị khác, không có cỏ xạ hương."
+grounding,A,q18,0,,,"Các đoạn là tan băng và chế biến nóng ướt chung, không chứng minh mức sôi nhẹ của ninh hầm."
+grounding,B,q18,0,,,"Top-3 là nhiệt khô, tan băng và quay nướng; thiếu bằng chứng đúng phương pháp ninh hầm."
+grounding,C,q18,0,,,"Không có filter cho câu này, kết quả như B; không có bằng chứng sôi nhẹ của ninh hầm."
+grounding,A,q19,2,,,Hit thứ 2 trang 67 có đủ quy tắc đĩa tròn qua tâm và bầu dục/chữ nhật qua trục.
+grounding,B,q19,2,,,Hit thứ 2 trang 67 giữ trọn mục trang trí đối xứng và cả hai quy tắc chọn đĩa.
+grounding,C,q19,2,,,"Hit thứ 2 trang 67 có cả hai quy tắc chọn đĩa, đủ trả lời và truy nguồn."
+grounding,A,q20,2,,,"Hit thứ 3 trang 70 nêu rõ trình bày đơn giản, nhanh để giữ nóng và phục vụ kịp."
+grounding,B,q20,1,,,"Có ý thời gian trình bày nóng ướt rất ít (trang 70) và phục vụ đúng giờ (66), thiếu chỉ dẫn nhanh để giữ nóng."
+grounding,C,q20,1,,,"Như B: có thông tin liên quan về thời gian, thiếu ý trình bày nhanh để giữ độ nóng."

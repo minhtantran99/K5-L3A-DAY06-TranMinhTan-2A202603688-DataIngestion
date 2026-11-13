@@ -8,3 +8,33 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+
+# Local models/vector store and PDF-derived content (sharing rights unverified).
+/.cache/
+/.local/
+/data/raw/
+/data/processed/
+/data/normalized/
+/results/chunks_*.jsonl
+/results/traces.jsonl
+/results/dev_traces.jsonl
+/results/coherence_samples.jsonl
+/results/test_audit_samples.jsonl
+/submission_*_PRIVATE.zip
+
+# Office/editor temporary files.
+~$*
+*.tmp
+*.bak
+
+# Regenerable slide previews and the superseded one-slide presentation.
+/artifacts/presentation/*.png
+/artifacts/presentation/*.jpg
+/artifacts/presentation/*_Demo.pptx
+/artifacts/submission_package.json
+
+# Initial exploration helpers; the implemented pipeline lives in starter/src/.
+/starter/preview_ingestion.py
+/starter/preview_normalization.py
+/starter/scripts/inspect_pdf.py
+/starter/scripts/create_slide.py

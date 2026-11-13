@@ -1,0 +1,47 @@
+[
+  {
+    "strategy": "A",
+    "chunks": 214,
+    "length_min": 104,
+    "length_max": 700,
+    "length_mean": 606.2102803738318,
+    "total_characters": 129729,
+    "embedding_seconds": 5.411650800000643,
+    "storage_seconds": 0.8093292000121437,
+    "embedding_reused_from": null,
+    "cost_usd": 0,
+    "count_before_upsert": 214,
+    "count_after_upsert": 214,
+    "count_after_reopen": 214
+  },
+  {
+    "strategy": "B",
+    "chunks": 211,
+    "length_min": 42,
+    "length_max": 699,
+    "length_mean": 542.4170616113744,
+    "total_characters": 114450,
+    "embedding_seconds": 5.713440899999114,
+    "storage_seconds": 0.8578478999843355,
+    "embedding_reused_from": null,
+    "cost_usd": 0,
+    "count_before_upsert": 211,
+    "count_after_upsert": 211,
+    "count_after_reopen": 211
+  },
+  {
+    "strategy": "C",
+    "chunks": 211,
+    "length_min": 42,
+    "length_max": 699,
+    "length_mean": 542.4170616113744,
+    "total_characters": 114450,
+    "embedding_seconds": 0.0,
+    "storage_seconds": 0.8165141000063159,
+    "embedding_reused_from": "B",
+    "cost_usd": 0,
+    "count_before_upsert": 211,
+    "count_after_upsert": 211,
+    "count_after_reopen": 211
+  }
+]

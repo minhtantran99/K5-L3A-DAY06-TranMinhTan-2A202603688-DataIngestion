@@ -1,0 +1,56 @@
+{
+  "physical_pages": 71,
+  "selected_pages": 62,
+  "excluded": [
+    {
+      "page": 1,
+      "char_count": 325,
+      "reason": "front_matter"
+    },
+    {
+      "page": 2,
+      "char_count": 281,
+      "reason": "front_matter"
+    },
+    {
+      "page": 3,
+      "char_count": 1487,
+      "reason": "front_matter"
+    },
+    {
+      "page": 4,
+      "char_count": 2675,
+      "reason": "front_matter"
+    },
+    {
+      "page": 5,
+      "char_count": 2972,
+      "reason": "front_matter"
+    },
+    {
+      "page": 6,
+      "char_count": 417,
+      "reason": "front_matter"
+    },
+    {
+      "page": 7,
+      "char_count": 1275,
+      "reason": "front_matter"
+    },
+    {
+      "page": 8,
+      "char_count": 135,
+      "reason": "front_matter"
+    },
+    {
+      "page": 71,
+      "char_count": 0,
+      "reason": "no_useful_content"
+    }
+  ],
+  "known_issues": [
+    "PDF extraction splits Vietnamese words; no speculative spelling repair",
+    "Page breaks can interrupt sentences; chunks remain page-bounded",
+    "Line wraps are preserved; paragraph/sentence splitting is heuristic"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "selected_strategy": "C",
+  "selected_at": "2026-11-13T18:14:08.118771+07:00",
+  "rule": "Max dev Evidence Hit@3, then dev Hit@1, then fewer chunks, then A/B/C order. Freeze before test; no tuning after test.",
+  "dev_metrics": [
+    {
+      "strategy": "A",
+      "split": "dev",
+      "n": 15,
+      "hit1_n": 2,
+      "hit3_n": 4,
+      "hit1": 0.13333333333333333,
+      "hit3": 0.26666666666666666
+    },
+    {
+      "strategy": "B",
+      "split": "dev",
+      "n": 15,
+      "hit1_n": 4,
+      "hit3_n": 6,
+      "hit1": 0.26666666666666666,
+      "hit3": 0.4
+    },
+    {
+      "strategy": "C",
+      "split": "dev",
+      "n": 15,
+      "hit1_n": 5,
+      "hit3_n": 7,
+      "hit1": 0.3333333333333333,
+      "hit3": 0.4666666666666667
+    }
+  ],
+  "test_evaluated_at_selection": false,
+  "fingerprint": {
+    "questions_sha256": "90951ed838f742f9e7d641b8914078bad912ef5bf786cd13efa5e804e9d6ce2a",
+    "config_sha256": "ab85b1b538b963bd8a21f369c468f27358b9f622c2da3c63774e2e41c31ac192",
+    "rules_sha256": "0ba4c2ab601e020eb1b5efb207a6972d89bb7b616fede08e2c48071bb6b6da82",
+    "pdf_sha256": "9ad4d991887b9c4fcb73d832ff7b2042402055936f7dbfe42f59e7420d5df751"
+  }
+}

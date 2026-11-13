@@ -1,0 +1,56 @@
+[
+  {
+    "strategy": "A",
+    "split": "dev",
+    "n": 15,
+    "hit1_n": 2,
+    "hit3_n": 4,
+    "hit1": 0.13333333333333333,
+    "hit3": 0.26666666666666666
+  },
+  {
+    "strategy": "A",
+    "split": "test",
+    "n": 5,
+    "hit1_n": 0,
+    "hit3_n": 2,
+    "hit1": 0.0,
+    "hit3": 0.4
+  },
+  {
+    "strategy": "B",
+    "split": "dev",
+    "n": 15,
+    "hit1_n": 4,
+    "hit3_n": 6,
+    "hit1": 0.26666666666666666,
+    "hit3": 0.4
+  },
+  {
+    "strategy": "B",
+    "split": "test",
+    "n": 5,
+    "hit1_n": 0,
+    "hit3_n": 1,
+    "hit1": 0.0,
+    "hit3": 0.2
+  },
+  {
+    "strategy": "C",
+    "split": "dev",
+    "n": 15,
+    "hit1_n": 5,
+    "hit3_n": 7,
+    "hit1": 0.3333333333333333,
+    "hit3": 0.4666666666666667
+  },
+  {
+    "strategy": "C",
+    "split": "test",
+    "n": 5,
+    "hit1_n": 0,
+    "hit3_n": 1,
+    "hit1": 0.0,
+    "hit3": 0.2
+  }
+]

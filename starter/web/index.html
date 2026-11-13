@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Tra cứu giáo trình · Lab 06</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar wrap">
+    <a class="brand" href="/" aria-label="Trang chủ"><span class="brand-icon">T</span> Tài liệu <span class="brand-light">/ Lab 06</span></a>
+    <span class="connection" id="connection"><span class="dot"></span><span id="connection-text">Đang kết nối…</span></span>
+  </header>
+  <main class="wrap">
+    <section class="intro">
+      <p class="eyebrow">KHO TRI THỨC · KỸ THUẬT CHẾ BIẾN MÓN ĂN</p>
+      <h1>Hỏi tài liệu.<br><span>Tìm đúng bằng chứng.</span></h1>
+      <p class="lead">Nhập câu hỏi để tìm các đoạn liên quan trong giáo trình, rồi mở trang gốc để đối chiếu.</p>
+    </section>
+    <div class="workspace">
+      <section class="search-card" aria-labelledby="search-heading">
+        <h2 id="search-heading">Bạn muốn tìm hiểu điều gì?</h2>
+        <form id="search-form">
+          <label class="sr-only" for="question">Câu hỏi</label>
+          <textarea id="question" name="question" maxlength="2000" rows="4" required placeholder="Ví dụ: Gia vị có vai trò gì trong món ăn?"></textarea>
+          <div class="examples" aria-label="Câu hỏi gợi ý">
+            <button type="button" class="example" data-question="Gia vị có vai trò gì trong món ăn?">Vai trò của gia vị ↗</button>
+            <button type="button" class="example" data-question="Vì sao cần sơ chế nguyên liệu trước khi chế biến?">Sơ chế nguyên liệu ↗</button>
+            <button type="button" class="example" data-question="Trình bày món ăn cần đáp ứng những yêu cầu nào?">Trình bày món ăn ↗</button>
+          </div>
+          <div class="divider"></div>
+          <fieldset>
+            <legend>Cấu hình truy xuất</legend>
+            <div class="strategies">
+              <label><input type="radio" name="strategy" value="A"><span><strong>A <small>Cơ bản</small></strong><em>Chunk cố định</em></span></label>
+              <label><input type="radio" name="strategy" value="B"><span><strong>B <small>Theo cấu trúc</small></strong><em>Gom đoạn & câu</em></span></label>
+              <label><input type="radio" name="strategy" value="C" checked><span><strong>C <small>Có bộ lọc</small></strong><em>Như B + lọc nhóm</em></span></label>
+            </div>
+          </fieldset>
+          <div class="filter-row">
+            <div class="filter-field">
+              <label for="group">Phạm vi tìm kiếm</label>
+              <select id="group" name="group">
+                <option value="">Toàn bộ giáo trình</option>
+                <option value="tong_luan_va_so_che">Tổng luận & sơ chế</option>
+                <option value="phoi_hop_nguyen_lieu">Phối hợp nguyên liệu, gia vị</option>
+                <option value="lam_chin">Phương pháp làm chín</option>
+                <option value="trinh_bay">Trình bày món ăn</option>
+              </select>
+            </div>
+            <label class="compare"><input type="checkbox" id="compare"> So sánh A / B / C</label>
+          </div>
+          <p id="filter-note" class="hint">Bộ lọc áp dụng cho cấu hình C.</p>
+          <div class="submit-row"><span class="hint">Ctrl + Enter để tìm</span><button id="submit" class="primary" disabled type="submit">Tìm bằng chứng <span aria-hidden="true">→</span></button></div>
+        </form>
+        <div id="error" class="error" role="alert" hidden></div>
+      </section>
+      <aside class="source-card" aria-labelledby="source-heading">
+        <div class="book-icon" aria-hidden="true">↗</div>
+        <p class="eyebrow">TÀI LIỆU ĐANG TRA CỨU</p>
+        <h2 id="source-heading">Kỹ thuật<br>chế biến món ăn</h2>
+        <p class="source-description">Giáo trình sơ cấp · 2019<br>Trường Cao đẳng nghề<br>Kỹ thuật Công nghệ</p>
+        <div class="source-stats"><div><strong>62</strong><span>trang nội dung</span></div><div><strong>4</strong><span>nhóm kiến thức</span></div></div>
+        <a class="source-link" href="/source.pdf#page=9" target="_blank" rel="noopener">Mở giáo trình PDF <span aria-hidden="true">↗</span></a>
+        <div class="source-footer"><span class="dot"></span> Model & dữ liệu chạy trên máy</div>
+      </aside>
+    </div>
+    <section class="results" aria-labelledby="results-heading" aria-busy="false">
+      <div class="results-header"><h2 id="results-heading">Bằng chứng truy xuất</h2><span id="result-meta" class="hint">Top 3 đoạn liên quan</span></div>
+      <p id="live-status" class="sr-only" role="status" aria-live="polite"></p>
+      <p id="result-query" class="hint" hidden></p>
+      <div id="empty" class="empty"><span class="empty-icon" aria-hidden="true">⌕</span><h3>Bắt đầu với một câu hỏi</h3><p>Kết quả sẽ có nội dung, độ tương đồng và trang nguồn<br>để bạn tự kiểm tra bằng chứng.</p></div>
+      <div id="result-list"></div>
+    </section>
+    <footer class="footer"><span>Trần Minh Tân · 2A202603688</span><span id="system-info">MiniLM đa ngữ · Qdrant local</span></footer>
+  </main>
+</body>
+</html>

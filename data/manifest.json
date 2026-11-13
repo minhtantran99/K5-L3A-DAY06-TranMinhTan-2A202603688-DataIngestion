@@ -1,0 +1,338 @@
+{
+  "source_id": "giao_trinh_che_bien_2019",
+  "title": "Giáo trình Kỹ thuật chế biến món ăn - trình độ sơ cấp",
+  "institution_on_cover": "Trường Cao đẳng nghề Kỹ thuật Công nghệ",
+  "source_path_or_url": "data/raw/tai_lieu.pdf",
+  "original_url": null,
+  "source_provenance": "PDF supplied by student; original download URL not available",
+  "license_or_permission": "No standard open license identified. Page 2 permits educational/reference use; public redistribution not established.",
+  "permission_evidence_page": 2,
+  "accessed_at": "2026-11-13",
+  "access_date_basis": "student source_notes.md",
+  "snapshot_year_on_cover": 2019,
+  "sha256": "9ad4d991887b9c4fcb73d832ff7b2042402055936f7dbfe42f59e7420d5df751",
+  "physical_page_count": 71,
+  "content_page_count": 62,
+  "counting_rule": "Physical PDF pages 9-70 inclusive; exclude front matter 1-8 and page-number-only page 71; no 1500-character threshold for PDF pages.",
+  "pages": [
+    {
+      "page": 9,
+      "characters": 1745,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 10,
+      "characters": 2231,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 11,
+      "characters": 2104,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 12,
+      "characters": 2020,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 13,
+      "characters": 2103,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 14,
+      "characters": 2087,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 15,
+      "characters": 1888,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 16,
+      "characters": 2159,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 17,
+      "characters": 2077,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 18,
+      "characters": 2205,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 19,
+      "characters": 2189,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 20,
+      "characters": 2001,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 21,
+      "characters": 1576,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 22,
+      "characters": 2012,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 23,
+      "characters": 1784,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 24,
+      "characters": 1634,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 25,
+      "characters": 1429,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 26,
+      "characters": 2311,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 27,
+      "characters": 2156,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 28,
+      "characters": 2146,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 29,
+      "characters": 2170,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 30,
+      "characters": 1393,
+      "content_group": "tong_luan_va_so_che"
+    },
+    {
+      "page": 31,
+      "characters": 1855,
+      "content_group": "phoi_hop_nguyen_lieu"
+    },
+    {
+      "page": 32,
+      "characters": 1950,
+      "content_group": "phoi_hop_nguyen_lieu"
+    },
+    {
+      "page": 33,
+      "characters": 1920,
+      "content_group": "phoi_hop_nguyen_lieu"
+    },
+    {
+      "page": 34,
+      "characters": 2281,
+      "content_group": "phoi_hop_nguyen_lieu"
+    },
+    {
+      "page": 35,
+      "characters": 1667,
+      "content_group": "phoi_hop_nguyen_lieu"
+    },
+    {
+      "page": 36,
+      "characters": 1984,
+      "content_group": "phoi_hop_nguyen_lieu"
+    },
+    {
+      "page": 37,
+      "characters": 2011,
+      "content_group": "phoi_hop_nguyen_lieu"
+    },
+    {
+      "page": 38,
+      "characters": 2203,
+      "content_group": "phoi_hop_nguyen_lieu"
+    },
+    {
+      "page": 39,
+      "characters": 1545,
+      "content_group": "phoi_hop_nguyen_lieu"
+    },
+    {
+      "page": 40,
+      "characters": 1554,
+      "content_group": "phoi_hop_nguyen_lieu"
+    },
+    {
+      "page": 41,
+      "characters": 1950,
+      "content_group": "phoi_hop_nguyen_lieu"
+    },
+    {
+      "page": 42,
+      "characters": 1513,
+      "content_group": "phoi_hop_nguyen_lieu"
+    },
+    {
+      "page": 43,
+      "characters": 1444,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 44,
+      "characters": 1953,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 45,
+      "characters": 1929,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 46,
+      "characters": 1799,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 47,
+      "characters": 1599,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 48,
+      "characters": 1614,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 49,
+      "characters": 1881,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 50,
+      "characters": 1680,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 51,
+      "characters": 1852,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 52,
+      "characters": 1654,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 53,
+      "characters": 1904,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 54,
+      "characters": 1812,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 55,
+      "characters": 1701,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 56,
+      "characters": 1654,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 57,
+      "characters": 1821,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 58,
+      "characters": 2212,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 59,
+      "characters": 2012,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 60,
+      "characters": 1966,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 61,
+      "characters": 1717,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 62,
+      "characters": 1715,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 63,
+      "characters": 1712,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 64,
+      "characters": 1500,
+      "content_group": "lam_chin"
+    },
+    {
+      "page": 65,
+      "characters": 1349,
+      "content_group": "trinh_bay"
+    },
+    {
+      "page": 66,
+      "characters": 1719,
+      "content_group": "trinh_bay"
+    },
+    {
+      "page": 67,
+      "characters": 1827,
+      "content_group": "trinh_bay"
+    },
+    {
+      "page": 68,
+      "characters": 2011,
+      "content_group": "trinh_bay"
+    },
+    {
+      "page": 69,
+      "characters": 1561,
+      "content_group": "trinh_bay"
+    },
+    {
+      "page": 70,
+      "characters": 1149,
+      "content_group": "trinh_bay"
+    }
+  ],
+  "metadata_schema": {
+    "document_id": "stable string",
+    "source": "local relative PDF path",
+    "page": "1-based physical PDF page",
+    "language": "vi, observed",
+    "content_group": "string, editorial grouping from observed lesson ranges"
+  },
+  "grouping_note": "Page 9 includes introductory lesson and lesson 1, grouped together; retain original numbering (no invented lesson 2).",
+  "sharing": "Raw PDF, extracted corpus, vectors, and text-bearing traces excluded from Git by default. Obtain the same PDF legitimately and verify SHA256 to reproduce."
+}

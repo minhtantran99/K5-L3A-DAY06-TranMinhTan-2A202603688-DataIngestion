@@ -1,0 +1,97 @@
+{
+  "completed_at": "2026-11-13T18:14:08.502272+07:00",
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "fastembed": "0.9.1",
+    "qdrant-client": "1.20.0",
+    "pypdf": "6.21.4",
+    "onnxruntime": "1.31.1",
+    "numpy": "2.5.4",
+    "grpcio": "1.76.0",
+    "tokenizers": "0.23.3"
+  },
+  "config": {
+    "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "dimensions": 384,
+    "metric": "cosine",
+    "top_k": 3,
+    "strategies": {
+      "A": {
+        "chunking": "fixed",
+        "size": 700,
+        "overlap": 100,
+        "filter": false
+      },
+      "B": {
+        "chunking": "paragraph_sentence",
+        "size": 700,
+        "overlap": 0,
+        "filter": false
+      },
+      "C": {
+        "chunking": "paragraph_sentence",
+        "size": 700,
+        "overlap": 0,
+        "filter": true
+      }
+    },
+    "selection_rule": "Max dev Evidence Hit@3, then dev Hit@1, then fewer chunks, then A/B/C order. Freeze before test; no tuning after test.",
+    "coherence_pages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "coherence_anchor": "midpoint of normalized page; first chunk covering it",
+    "notes": "A/B compares the whole chunking recipe (boundaries and overlap). B/C changes filtering only."
+  },
+  "model_load_seconds": 1.0980245000100695,
+  "total_seconds": 19.80937649999396,
+  "api_cost_usd": 0,
+  "cost_scope": "No paid API; electricity/hardware/network cost not measured",
+  "search": "Qdrant local exact cosine; no ANN index",
+  "fingerprint": {
+    "questions_sha256": "90951ed838f742f9e7d641b8914078bad912ef5bf786cd13efa5e804e9d6ce2a",
+    "config_sha256": "ab85b1b538b963bd8a21f369c468f27358b9f622c2da3c63774e2e41c31ac192",
+    "rules_sha256": "0ba4c2ab601e020eb1b5efb207a6972d89bb7b616fede08e2c48071bb6b6da82",
+    "pdf_sha256": "9ad4d991887b9c4fcb73d832ff7b2042402055936f7dbfe42f59e7420d5df751"
+  },
+  "model_files": [
+    {
+      "path": "models--Qdrant--paraphrase-multilingual-MiniLM-L12-v2-onnx-Q\\files_metadata.json",
+      "sha256": "e47fe8b189dade1f9e0f777fade2d0bab566278d7c7fbb6fef93b8c7f6fb6b98"
+    },
+    {
+      "path": "models--Qdrant--paraphrase-multilingual-MiniLM-L12-v2-onnx-Q\\snapshots\\faf4aa4225822f3bc6376869cb1164e8e3feedd0\\config.json",
+      "sha256": "c8ec081fdad2df991bf5abbf18418fec7a5cdaa421f60ffb060a30040b8c376f"
+    },
+    {
+      "path": "models--Qdrant--paraphrase-multilingual-MiniLM-L12-v2-onnx-Q\\snapshots\\faf4aa4225822f3bc6376869cb1164e8e3feedd0\\model_optimized.onnx",
+      "sha256": "634d0f66c29dc934c8fa72b8a4fe91dd4d420a22f1d82a241058d4316e659a99"
+    },
+    {
+      "path": "models--Qdrant--paraphrase-multilingual-MiniLM-L12-v2-onnx-Q\\snapshots\\faf4aa4225822f3bc6376869cb1164e8e3feedd0\\special_tokens_map.json",
+      "sha256": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835"
+    },
+    {
+      "path": "models--Qdrant--paraphrase-multilingual-MiniLM-L12-v2-onnx-Q\\snapshots\\faf4aa4225822f3bc6376869cb1164e8e3feedd0\\tokenizer.json",
+      "sha256": "fa685fc160bbdbab64058d4fc91b60e62d207e8dc60b9af5c002c5ab946ded00"
+    },
+    {
+      "path": "models--Qdrant--paraphrase-multilingual-MiniLM-L12-v2-onnx-Q\\snapshots\\faf4aa4225822f3bc6376869cb1164e8e3feedd0\\tokenizer_config.json",
+      "sha256": "0666eebf692422757e1dddf3c9fb1ded73ba3dc726c5828671fc89e45bf3609f"
+    },
+    {
+      "path": "models--Qdrant--paraphrase-multilingual-MiniLM-L12-v2-onnx-Q\\trees\\faf4aa4225822f3bc6376869cb1164e8e3feedd0.json",
+      "sha256": "292c0104b22e003fa965c11359baa62dff4ac112eebf8daab679cc9c41d33258"
+    }
+  ],
+  "qualitative_review_status": "AI-assisted inspection; student human confirmation pending"
+}

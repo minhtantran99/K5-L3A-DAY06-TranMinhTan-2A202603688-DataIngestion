@@ -1,4 +1,4 @@
-strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+﻿strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
+A,fixed,700,100,document_id;source;page;content_group;language;offsets,none,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,Baseline; cửa sổ cố định có thể cắt giữa ý,0.13333333333333333,0.26666666666666666,0.0,0.4,Descriptive hypothesis written with report; not separately preregistered. C reuses B embeddings.
+B,paragraph_sentence,700,0,document_id;source;page;content_group;language;offsets,none,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,Ranh giới câu/đoạn có thể giữ ý tốt hơn nhưng không overlap,0.26666666666666666,0.4,0.0,0.2,Descriptive hypothesis written with report; not separately preregistered. C reuses B embeddings.
+C,paragraph_sentence,700,0,document_id;source;page;content_group;language;offsets,content_group when supplied,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,Lọc nhóm nội dung có thể giảm kết quả ngoài phạm vi,0.3333333333333333,0.4666666666666667,0.0,0.2,Descriptive hypothesis written with report; not separately preregistered. C reuses B embeddings.
